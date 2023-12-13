@@ -46,13 +46,13 @@ Through various simulations, results that are largely consistent with the expect
 ### Summary of our results in comparison to the original results
 **Energy-oriented results comparison**
 |  ours   |  paper |
-|-|-|
+|-|-|-|
 |$P_h[mW]$ | 1.27 | 1.34 |
 |exec/min| 8.8 | 8.5 |
 
 **Power-oriented results comparison**
 |  ours   |  paper |
-|-|-|
+|-|-|-|
 |$P_h[mW]$ | 1.92 | 1.97 |
 |exec/min| 13.1 | 13.2 |
 
