@@ -1,6 +1,7 @@
 # Torpor Replicatoin
 This project is part of **Low Power Design** course.
-Replicates and validates the paper ["Energy and power awareness in hardware schedulers for energy harvesting IoT SoCs"](https://www.sciencedirect.com/science/article/abs/pii/S0167926018305480#:~:text=To%20use%20harvested%20energy%20efficiently,on%20different%20application%2Dspecific%20parameters.) using a custom system-level behavioral simulator, developed in C++.
+
+Here, we will replicate and validate the paper ["Energy and power awareness in hardware schedulers for energy harvesting IoT SoCs"](https://www.sciencedirect.com/science/article/abs/pii/S0167926018305480#:~:text=To%20use%20harvested%20energy%20efficiently,on%20different%20application%2Dspecific%20parameters.) using a custom system-level behavioral simulator, developed in C++.
 
 ## Paper Summary
 The paper presents Torpor, a power-aware hardware scheduler that enables IoT nodes to efficiently execute part of their applications using irregular harvesting power, while still guaranteeing their low-power always-on required functionality using a battery. Torpor tries to maximally exploit the harvesting power and minimize the battery usage to prolong the battery's lifespan; this goal is achieved by dynamically scheduling available tasks based on parameters such as the task's power consumption and the harvester's output power. by using these parameters torpor tries to more closely match the load’s power consumption and the harvester's output power by minimizing the time intervals where the harvested power exceeds the energy-driven tasks’ power consumption, this minimizes the chance of energy buffer saturation and as a result, maximizes the harvested energy consumption.
