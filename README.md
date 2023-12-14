@@ -58,7 +58,3 @@ Through various simulations, results that are largely consistent with the expect
 |exec/min| 13.1 | 13.2 |
 
 This validates the effectiveness of the Torpor scheduler in utilizing harvested power efficiently and executing tasks at appropriate times, thereby minimizing battery consumption.
-
-## Conclusion
-
-The Torpor power-aware scheduler was examined, and its performance was validated wherever possible. By timely utilizing harvested power and scheduling appropriate tasks, the scheduler aims to improve the efficiency of energy use, thereby minimizing battery consumption. The hardware is designed to have negligible energy consumption when integrated into an SoC.
