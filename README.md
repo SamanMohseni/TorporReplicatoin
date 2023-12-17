@@ -1,5 +1,5 @@
 # Torpor Replicatoin
-This project is part of the **Low Power Design** course.
+This project was originally conducted as part of the **Spring 2021 Low Power Design** course.
 
 Here, we will replicate and validate the paper ["Energy and power awareness in hardware schedulers for energy harvesting IoT SoCs"](https://www.sciencedirect.com/science/article/abs/pii/S0167926018305480#:~:text=To%20use%20harvested%20energy%20efficiently,on%20different%20application%2Dspecific%20parameters.) using a custom system-level behavioral simulator, developed in C++.
 
@@ -58,3 +58,6 @@ Through various simulations, results that are largely consistent with the expect
 |exec/min| 13.1 | 13.2 |
 
 This validates the effectiveness of the Torpor scheduler in utilizing harvested power efficiently and executing tasks at appropriate times, thereby minimizing battery consumption.
+
+## Acknowledgments
+Course instructor: [Dr. Alireza Ejlali](https://scholar.google.com/citations?user=H7G8s68AAAAJ&hl=en)
